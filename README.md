@@ -12,7 +12,7 @@ A static web app that maps 10 trade and home-service industries across every US 
 
 ## Live demo
 
-Live demo: (link added at publish)
+Live demo: https://lead-map-six.vercel.app
 
 ## Run it
 
