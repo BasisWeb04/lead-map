@@ -1,0 +1,366 @@
+{
+  "schema": 1,
+  "cbpYear": 2022,
+  "populationYear": 2022,
+  "sources": [
+    {
+      "id": "cbp22co",
+      "title": "County Business Patterns 2022, county-level file",
+      "url": "https://www2.census.gov/programs-surveys/cbp/datasets/2022/cbp22co.zip",
+      "vintage": "2022 (released 2024)",
+      "license": "Public domain (US Government work, U.S. Census Bureau)",
+      "sha256": "dcea1d9a7060cdb763c841d863163856ba8d5a50dce9056992bdeacd08ff99b4",
+      "bytes": 13723814
+    },
+    {
+      "id": "co-est2025-alldata",
+      "title": "County Population Totals, Vintage 2025 (April 1, 2020 to July 1, 2025)",
+      "url": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2025/counties/totals/co-est2025-alldata.csv",
+      "vintage": "Vintage 2025, column POPESTIMATE2022",
+      "license": "Public domain (US Government work, U.S. Census Bureau)",
+      "sha256": "4f5a499d851e2cb48fd7a5405e5a9235453a8a66933657aacd10df0e264f35d5",
+      "bytes": 2071735
+    }
+  ],
+  "states": [
+    [
+      "01",
+      "AL",
+      "Alabama"
+    ],
+    [
+      "02",
+      "AK",
+      "Alaska"
+    ],
+    [
+      "04",
+      "AZ",
+      "Arizona"
+    ],
+    [
+      "05",
+      "AR",
+      "Arkansas"
+    ],
+    [
+      "06",
+      "CA",
+      "California"
+    ],
+    [
+      "08",
+      "CO",
+      "Colorado"
+    ],
+    [
+      "09",
+      "CT",
+      "Connecticut"
+    ],
+    [
+      "10",
+      "DE",
+      "Delaware"
+    ],
+    [
+      "11",
+      "DC",
+      "District of Columbia"
+    ],
+    [
+      "12",
+      "FL",
+      "Florida"
+    ],
+    [
+      "13",
+      "GA",
+      "Georgia"
+    ],
+    [
+      "15",
+      "HI",
+      "Hawaii"
+    ],
+    [
+      "16",
+      "ID",
+      "Idaho"
+    ],
+    [
+      "17",
+      "IL",
+      "Illinois"
+    ],
+    [
+      "18",
+      "IN",
+      "Indiana"
+    ],
+    [
+      "19",
+      "IA",
+      "Iowa"
+    ],
+    [
+      "20",
+      "KS",
+      "Kansas"
+    ],
+    [
+      "21",
+      "KY",
+      "Kentucky"
+    ],
+    [
+      "22",
+      "LA",
+      "Louisiana"
+    ],
+    [
+      "23",
+      "ME",
+      "Maine"
+    ],
+    [
+      "24",
+      "MD",
+      "Maryland"
+    ],
+    [
+      "25",
+      "MA",
+      "Massachusetts"
+    ],
+    [
+      "26",
+      "MI",
+      "Michigan"
+    ],
+    [
+      "27",
+      "MN",
+      "Minnesota"
+    ],
+    [
+      "28",
+      "MS",
+      "Mississippi"
+    ],
+    [
+      "29",
+      "MO",
+      "Missouri"
+    ],
+    [
+      "30",
+      "MT",
+      "Montana"
+    ],
+    [
+      "31",
+      "NE",
+      "Nebraska"
+    ],
+    [
+      "32",
+      "NV",
+      "Nevada"
+    ],
+    [
+      "33",
+      "NH",
+      "New Hampshire"
+    ],
+    [
+      "34",
+      "NJ",
+      "New Jersey"
+    ],
+    [
+      "35",
+      "NM",
+      "New Mexico"
+    ],
+    [
+      "36",
+      "NY",
+      "New York"
+    ],
+    [
+      "37",
+      "NC",
+      "North Carolina"
+    ],
+    [
+      "38",
+      "ND",
+      "North Dakota"
+    ],
+    [
+      "39",
+      "OH",
+      "Ohio"
+    ],
+    [
+      "40",
+      "OK",
+      "Oklahoma"
+    ],
+    [
+      "41",
+      "OR",
+      "Oregon"
+    ],
+    [
+      "42",
+      "PA",
+      "Pennsylvania"
+    ],
+    [
+      "44",
+      "RI",
+      "Rhode Island"
+    ],
+    [
+      "45",
+      "SC",
+      "South Carolina"
+    ],
+    [
+      "46",
+      "SD",
+      "South Dakota"
+    ],
+    [
+      "47",
+      "TN",
+      "Tennessee"
+    ],
+    [
+      "48",
+      "TX",
+      "Texas"
+    ],
+    [
+      "49",
+      "UT",
+      "Utah"
+    ],
+    [
+      "50",
+      "VT",
+      "Vermont"
+    ],
+    [
+      "51",
+      "VA",
+      "Virginia"
+    ],
+    [
+      "53",
+      "WA",
+      "Washington"
+    ],
+    [
+      "54",
+      "WV",
+      "West Virginia"
+    ],
+    [
+      "55",
+      "WI",
+      "Wisconsin"
+    ],
+    [
+      "56",
+      "WY",
+      "Wyoming"
+    ]
+  ],
+  "industries": [
+    {
+      "code": "238220",
+      "label": "Plumbing, heating and air-conditioning contractors",
+      "rawCode": "238220",
+      "counties": 2472,
+      "establishments": 108933
+    },
+    {
+      "code": "238210",
+      "label": "Electrical contractors",
+      "rawCode": "238210",
+      "counties": 2235,
+      "establishments": 80964
+    },
+    {
+      "code": "238160",
+      "label": "Roofing contractors",
+      "rawCode": "238160",
+      "counties": 1221,
+      "establishments": 23424
+    },
+    {
+      "code": "238320",
+      "label": "Painting and wall covering contractors",
+      "rawCode": "238320",
+      "counties": 1249,
+      "establishments": 36905
+    },
+    {
+      "code": "561730",
+      "label": "Landscaping services",
+      "rawCode": "561730",
+      "counties": 2206,
+      "establishments": 116325
+    },
+    {
+      "code": "561710",
+      "label": "Exterminating and pest control services",
+      "rawCode": "561710",
+      "counties": 956,
+      "establishments": 14749
+    },
+    {
+      "code": "561720",
+      "label": "Janitorial services",
+      "rawCode": "561720",
+      "counties": 1698,
+      "establishments": 66112
+    },
+    {
+      "code": "8111",
+      "label": "Automotive repair and maintenance",
+      "rawCode": "8111//",
+      "counties": 2731,
+      "establishments": 167444
+    },
+    {
+      "code": "621210",
+      "label": "Offices of dentists",
+      "rawCode": "621210",
+      "counties": 2093,
+      "establishments": 135137
+    },
+    {
+      "code": "7225",
+      "label": "Restaurants and other eating places",
+      "rawCode": "7225//",
+      "counties": 3018,
+      "establishments": 605923
+    }
+  ],
+  "sizeClasses": [
+    "1-4",
+    "5-9",
+    "10-19",
+    "20-49",
+    "50-99",
+    "100-249",
+    "250-499",
+    "500-999",
+    "1000+"
+  ],
+  "droppedCodes": []
+}

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fill for map shapes with no matching data row (boundary changes). */
+  --lm-nomatch: #d6d3d1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lm-nomatch: #44403c;
+  }
+}
+
+@layer components {
+  .lm-focus:focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-accent dark:outline-accent-dark;
+  }
+  .lm-county:focus-visible {
+    outline: none;
+    stroke: #b45309;
+    stroke-width: 2.5px;
+  }
+  .lm-county:hover {
+    opacity: 0.85;
+  }
+}
