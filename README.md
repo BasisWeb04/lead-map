@@ -2,6 +2,10 @@
 
 A static web app that maps 10 trade and home-service industries across every US county, using the public Census County Business Patterns 2022 file. You can view counts, a per-capita rate, or a "room for another business" ratio, and every view has a sortable table and CSV export.
 
+**Live demo:** https://lead-map-six.vercel.app (real public Census data)
+
+![Lead Map: county map of one industry with the matching table](docs/screenshot.png)
+
 ## What this demonstrates
 
 - A reproducible data pipeline: `npm run data` downloads two public Census files, keeps 10 NAICS codes and writes 1.34 MB of compact JSON. Three runs (cached, cached, fresh re-download) produced byte-identical output with the same SHA-256.
