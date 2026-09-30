@@ -62,7 +62,7 @@ export function CountyTable({ rows, sortKey, sortDir, onSort, selected, onSelect
                 >
                   <button type="button" onClick={() => onSort(c.key)} className="lm-focus inline-flex items-center gap-1 whitespace-nowrap rounded px-0.5 hover:underline">
                     {c.label}
-                    <span aria-hidden="true" className="font-mono text-[10px] text-stone-500">
+                    <span aria-hidden="true" className="font-mono text-[10px] text-stone-600 dark:text-stone-400">
                       {active ? (sortDir === 'asc' ? 'asc' : 'desc') : ''}
                     </span>
                   </button>
